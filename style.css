@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz@6..96&family=Edu+NSW+ACT+Foundation:wght@400;500;600&family=Fira+Sans:wght@100&family=Itim&family=Labrada:wght@300;400;500&family=Lato:wght@100;300&family=Libre+Baskerville&family=Montserrat:wght@300;400;500&family=Noto+Serif+Thai&family=Oswald:wght@200&family=Poppins:wght@100;400&family=Roboto:wght@400;700&family=Space+Mono&family=Tiro+Devanagari+Hindi&family=Ubuntu:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+/* utility classes */
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between;
+    align-items: center; */
+}
+
+.container {
+    max-width: 1300px;
+    margin-inline: auto;
+    padding-inline: 20px;
+}
+
+.gap-5 {
+    display: flex;
+    gap: 5px;
+}
+
+.gap-10 {
+    display: flex;
+    gap: 10px;
+}
+
+.gap-15 {
+    display: flex;
+    gap: 15px;
+}
+
+/* utility classes end*/
+
+/* header */
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-links li {
+    list-style-type: none;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.nav-links li a {
+    color: rgb(69, 69, 69);
+    transition: all .2s ease-in-out;
+    padding-bottom: 3px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0);
+}
+
+.nav-links li a:hover,
+.nav-links li a.active {
+    color: rgb(43, 116, 195);
+    border-bottom: 2px solid rgb(46, 121, 202);
+}
+
+header {
+    padding-block: 20px;
+    background-color: rgb(222, 234, 233);
+    box-shadow: 0 0px 20px rgb(222, 234, 233);
+    position: sticky;
+    top: 0px;
+    z-index: 10;
+}
+
+.nav-links {
+    gap: 40px;
+}
+#menu {
+    font-size: 120%;
+    display: none;
+}
