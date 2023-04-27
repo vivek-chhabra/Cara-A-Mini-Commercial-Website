@@ -180,3 +180,104 @@ header {
     box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.01);
     transform: scale(0.98);
 }
+
+/* featured product section */
+
+.featured-product-section .container {
+    align-items: center;
+}
+
+.products {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 40px;
+
+}
+
+.products h1 {
+    font-size: 230%;
+}
+
+.product-rows {
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    row-gap: 20px;
+
+}
+
+.p-items img {
+    width: 250px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.p-items {
+    padding: 10px;
+    border: 2px solid #c4cccca9;
+    border-radius: 20px;
+    gap: 8px;
+    box-shadow: 3px 3px 0 #04423e00;
+    transition: all .2s ease-in-out;
+}
+
+.p-items:hover {
+    transform: scale(101%);
+}
+
+.price {
+    margin-top: 5px;
+    margin-inline: 5px;
+}
+
+.ratings {
+    color: rgb(242, 157, 66);
+}
+
+.price .fa-cart-plus {
+    padding: 10px;
+    border-radius: 50px;
+    background-color: #c4eeeba9;
+    color: #088178;
+    transition: all .2s ease-in-out;
+}
+
+.fa-cart-plus:hover {
+    color: #0f4542;
+    background-color: #c4eeeba9;
+}
+
+.price p {
+    color: #088178;
+    font-weight: 600;
+}
+
+.p-head {
+    font-size: 240%;
+}
+
+.p-para {
+    margin-bottom: 40px;
+    padding-top: 5px;
+    margin-top: 8px;
+    font-size: 160%;
+    padding-inline: 5px;
+    color: rgb(126, 124, 124);
+    font-weight: 600;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+}
+
+.p-para::after {
+    content: "s...";
+}
+
+.fa-indian-rupee-sign {
+    margin-right: 5px;
+    position: relative;
+    top: 0.5px;
+}
+
+.product-name {
+    font-weight: 600;
+    color: #243534;
+}
