@@ -90,3 +90,57 @@ header {
     font-size: 120%;
     display: none;
 }
+
+/* hero section */
+.hero-section {
+    height: 90vh;
+    background-image: url("img/hero4.png");
+    background-position: top 25% right 0;
+    background-size: cover;
+
+}
+
+.hero-content {
+    height: 70vh;
+    justify-content: center;
+}
+
+.hero-content h1 {
+    font-size: 300%;
+    color: #088178;
+}
+
+.hero-content h2 {
+    font-size: 260%;
+    word-spacing: 5px;
+    color: rgb(0, 0, 0);
+}
+
+.hero-content h4 {
+    font-size: 130%;
+    word-spacing: 5px;
+    padding-bottom: 15px;
+}
+
+.hero-content p {
+    font-size: 130%;
+    padding-block: 20px;
+    color: rgb(153, 153, 153);
+}
+
+.button {
+    background-image: url("img/button.png");
+    background-repeat: no-repeat;
+    height: 50px;
+    font-weight: 600;
+}
+
+.button a {
+    position: relative;
+    top: 15px;
+    left: 70px;
+    color: #088178;
+
+}
+
+/* features section */
