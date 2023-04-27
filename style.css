@@ -76,8 +76,8 @@ a {
 
 header {
     padding-block: 20px;
-    background-color: rgb(222, 234, 233);
-    box-shadow: 0 0px 20px rgb(222, 234, 233);
+    background-color: rgb(227,230,243);
+    box-shadow: 0 0px 20px rgb(184, 184, 184);
     position: sticky;
     top: 0px;
     z-index: 10;
@@ -94,7 +94,7 @@ header {
 /* hero section */
 .hero-section {
     height: 90vh;
-    background-image: url("img/hero4.png");
+    background-image: url("./images/hero4.png");
     background-position: top 25% right 0;
     background-size: cover;
 
@@ -280,4 +280,47 @@ header {
 .product-name {
     font-weight: 600;
     color: #243534;
+}
+
+/* newsletter section */
+
+.newsletter-section {
+    background: url("img/banner/b2.jpg") center;
+    background-repeat: no-repeat;
+    height: 350px;
+    color: white;
+    width: 100vw;
+    background-color: #060F1E;
+    margin-block: 80px;
+    background-size: cover;
+}
+
+.newsletter-section .container {
+    gap: 30px;
+    align-items: center;
+    padding-block: 0px;
+}
+
+.newsletter-section span {
+    color: rgb(255, 28, 28);
+}
+
+.newsletter-section{
+    font-size: 120%;
+}
+
+.p-button {
+    display: flex;
+    justify-content: center;
+    padding: 10px 15px;
+    width: 150px;
+    border-radius: 4px;
+    background-color: white;
+    transition: .2s ease-in-out;
+    color: rgb(0, 0, 0);
+}
+
+.p-button:hover {
+    background-color: #088178;
+    color: white;
 }
