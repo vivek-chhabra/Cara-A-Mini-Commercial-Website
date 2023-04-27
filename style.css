@@ -144,3 +144,39 @@ header {
 }
 
 /* features section */
+
+.features-section {
+    padding-block: 80px;
+}
+
+.features-section .container {
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    row-gap: 20px;
+}
+
+.f-cols {
+    text-align: center;
+    border: 2px solid #c4eeeba9;
+    border-radius: 3px;
+    padding-inline: 15px;
+    padding-block: 25px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.067);
+    gap: 20px;
+    transition: all .2s ease-in-out;
+    flex-wrap: wrap;
+}
+
+.f-cols p {
+    padding: 10px;
+    line-height: 1;
+    border-radius: 4px;
+    background-color: #fdddef;
+    color: #088178;
+    font-weight: 600;
+}
+
+.f-cols:hover {
+    box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.01);
+    transform: scale(0.98);
+}
