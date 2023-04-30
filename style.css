@@ -51,6 +51,10 @@ body {
 
 /* utility classes end*/
 
+body {
+  width: 100%;
+}
+
 /* header */
 a {
   text-decoration: none;
