@@ -22,8 +22,6 @@ body {
 .flex-column {
   display: flex;
   flex-direction: column;
-  /* justify-content: space-between;
-    align-items: center; */
 }
 
 .container {
@@ -54,7 +52,6 @@ body {
 /* utility classes end*/
 
 /* header */
-
 a {
   text-decoration: none;
   color: black;
@@ -147,7 +144,6 @@ header {
 }
 
 /* features section */
-
 .features-section {
   padding-block: 80px;
 }
@@ -185,7 +181,6 @@ header {
 }
 
 /* featured product section */
-
 .featured-product-section .container {
   align-items: center;
 }
@@ -284,7 +279,6 @@ header {
 }
 
 /* newsletter section */
-
 .newsletter-section {
   background: url("./images/banner/b2.jpg") center;
   background-repeat: no-repeat;
@@ -327,7 +321,6 @@ header {
 }
 
 /* new arivalls */
-
 .new-arival {
   margin-block: 80px;
 }
@@ -337,7 +330,6 @@ header {
 }
 
 /* action banner */
-
 .action-rows {
   gap: 40px;
   margin-bottom: 40px;
@@ -354,10 +346,6 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
 }
-/* 
-#a-col-1 .p-button {
-    border-radius: 2px;
-} */
 
 #a-col-2 .p-button,
 #a-col-1 .p-button {
@@ -381,10 +369,62 @@ header {
   background-repeat: no-repeat;
   background: cover;
   background-color: #6f535d;
-  /* background-blend-mode: soft-light; */
 }
 
 #a-row-2 .a-cols p {
   color: #ff146a;
   font-weight: 600;
+}
+
+/* newsletter section 2 */
+.Newsletter-Section-2 {
+  margin-block: 80px;
+  background: url(img/banner/b14.png) left;
+  background-color: #060f1e;
+  background-repeat: no-repeat;
+  color: white;
+  height: 230px;
+}
+
+.Newsletter-Section-2 .container {
+  height: 100%;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.news-col1 {
+  gap: 20px;
+}
+
+.news-col2 input {
+  outline: none;
+  height: 45.5px;
+  width: 350px;
+  border: none;
+  padding-left: 15px;
+  border-radius: 4px 0px 0px 4px;
+  font-size: 105%;
+}
+
+.news-col2 .p-button {
+  width: 100px;
+  padding-block: 13px;
+  border-radius: 0px 4px 4px 0px;
+  border: none;
+  background-color: #088178;
+  color: white;
+  font-weight: 600;
+  display: flex;
+}
+
+.news-col2 .p-button:hover {
+  background-color: #155f5b;
+}
+
+.news-col1 p {
+  color: rgb(214, 202, 202);
+}
+
+.news-col1 span {
+  color: #ff146a;
 }
