@@ -1,169 +1,166 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Cara | Home</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cara | Home</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-    <!-- nav bar -->
-    <header>
-        <nav class="flex container">
-            <div class="logo"><a href="#"><img src="./images/logo.png" alt=""></a></div>
-            <ul class="flex nav-links">
-                <li id="home"><a class="active" target="_blank" href="./">&nbsp; Home &nbsp;</a></li>
-                <li id="shop"><a target="_blank" href="./shop.html">&nbsp; Shop &nbsp;</a></li>
-                <li id="blog"><a target="_blank" href="./blog.html">&nbsp; Blog &nbsp;</a></li>
-                <li id="about"><a target="_blank" href="./about.html">&nbsp; About &nbsp;</a></li>
-                <li id="contact"><a target="_blank" href="./contact.html">&nbsp; Contact &nbsp;</a></li>
-                <li id="cart"><a target="_blank" href="./cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+    <body>
+        <!-- nav bar -->
+        <header>
+            <nav class="flex container">
+                <div class="logo">
+                    <a href="#"><img src="./images/logo.png" alt="" /></a>
+                </div>
+                <ul class="flex nav-links">
+                    <li class="cross">
+                        <i class="fa-solid fa-xmark"></i>
+                    </li>
+                    <li id="home">
+                        <a class="active" target="_blank" href="./">&nbsp; Home &nbsp;</a>
+                    </li>
+                    <li id="shop">
+                        <a target="_blank" href="./shop.html">&nbsp; Shop &nbsp;</a>
+                    </li>
+                    <li id="blog">
+                        <a target="_blank" href="./blog.html">&nbsp; Blog &nbsp;</a>
+                    </li>
+                    <li id="about">
+                        <a target="_blank" href="./about.html">&nbsp; About &nbsp;</a>
+                    </li>
+                    <li id="contact">
+                        <a target="_blank" href="./contact.html">&nbsp; Contact &nbsp;</a>
+                    </li>
+                    <li id="cart">
+                        <a target="_blank" href="./cart.html" class="cart-logo"><i class="fa-solid fa-cart-shopping"></i></a>
+                        <a href="./cart.html" class="cart"> Cart </a>
+                    </li>
+                </ul>
                 <li id="menu"><i class="fa-solid fa-bars"></i></li>
-            </ul>
-        </nav>
-    </header>
+            </nav>
+        </header>
 
-    <main>
-
-        <!-- hero-section -->
-        <div class="hero-section">
-            <div class="container flex">
-                <div class="hero-content flex-column">
-                    <h4>Trade-in-offer</h4>
-                    <h2>Super value deals</h2>
-                    <h1>On all products</h1>
-                    <p>Save more with coupons upto 70% off!</p>
-                    <div class="button"><a href="">Shop Now</a></div>
-                </div>
-                <div class="img"></div>
-            </div>
-        </div>
-
-        <!-- features section -->
-        <div class="features-section">
-            <div class="container flex">
-                <div class="f-cols flex-column" id="f-col-1">
-                    <img src="./images/features/f1.png" alt="">
-                    <p class="pointer" style="background-color: rgb(188, 219, 255);">Free Shipping</p>
-                </div>
-                <div class="f-cols flex-column" id="f-col-2">
-                    <img src="./images/features/f2.png" alt="">
-                    <p class="pointer" style="background-color: rgb(238, 180, 253);">Online Order</p>
-                </div>
-                <div class="f-cols flex-column" id="f-col-3">
-                    <img src="./images/features/f3.png" alt="">
-                    <p class="pointer" style="background-color: rgb(187, 231, 141);">Save Money</p>
-                </div>
-                <div class="f-cols flex-column" id="f-col-4">
-                    <img src="./images/features/f4.png" alt="">
-                    <p class="pointer" style="background-color: rgba(156, 186, 241, 0.945);">Promotions</p>
-                </div>
-                <div class="f-cols flex-column" id="f-col-5">
-                    <img src="./images/features/f5.png" alt="">
-                    <p class="pointer" style="background-color: rgb(204, 169, 253);">Happy Sell</p>
-                </div>
-                <div class="f-cols flex-column" id="f-col-6">
-                    <img src="./images/features/f6.png" alt="">
-                    <p class="pointer" style="background-color: rgb(252, 209, 163);">24/7 Support</p>
+        <main>
+            <!-- hero-section -->
+            <div class="hero-section">
+                <div class="container flex">
+                    <div class="hero-content flex-column">
+                        <h4>Trade-in-offer</h4>
+                        <h2>Super value deals</h2>
+                        <h1>On all products</h1>
+                        <p>Save more with coupons upto 70% off!</p>
+                        <div class="button"><a href="">Shop Now</a></div>
+                    </div>
+                    <div class="img"></div>
                 </div>
             </div>
-        </div>
 
-        <!-- featured product section -->
-        <div class="featured-product-section">
-            <div class="container flex-column">
-                <h1 class="p-head">Featured Product</h1>
-                <p class="p-para">Summer Collection New Modern Design</p>
-                <div class="products">
-                    <div class="product-rows flex" id="p-row-1">
+            <!-- features section -->
+            <div class="features-section">
+                <div class="container flex">
+                    <div class="f-cols flex-column" id="f-col-1">
+                        <img src="./images/features/f1.png" alt="" />
+                        <p class="pointer" style="background-color: rgb(188, 219, 255)">Free Shipping</p>
+                    </div>
+                    <div class="f-cols flex-column" id="f-col-2">
+                        <img src="./images/features/f2.png" alt="" />
+                        <p class="pointer" style="background-color: rgb(238, 180, 253)">Online Order</p>
+                    </div>
+                    <div class="f-cols flex-column" id="f-col-3">
+                        <img src="./images/features/f3.png" alt="" />
+                        <p class="pointer" style="background-color: rgb(187, 231, 141)">Save Money</p>
+                    </div>
+                    <div class="f-cols flex-column" id="f-col-4">
+                        <img src="./images/features/f4.png" alt="" />
+                        <p class="pointer" style="background-color: rgba(156, 186, 241, 0.945)">Promotions</p>
+                    </div>
+                    <div class="f-cols flex-column" id="f-col-5">
+                        <img src="./images/features/f5.png" alt="" />
+                        <p class="pointer" style="background-color: rgb(204, 169, 253)">Happy Sell</p>
+                    </div>
+                    <div class="f-cols flex-column" id="f-col-6">
+                        <img src="./images/features/f6.png" alt="" />
+                        <p class="pointer" style="background-color: rgb(252, 209, 163)">24/7 Support</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- featured product section -->
+            <div class="featured-product-section">
+                <div class="container flex-column">
+                    <h1 class="p-head">Featured Product</h1>
+                    <p class="p-para">Summer Collection New Modern Design</p>
+                    <div class="products">
                         <div class="p-items flex-column" id="p-item-1">
-                            <img src="./images/products/f1.jpg" alt="">
+                            <img src="./images/products/f1.jpg" alt="" />
                             <div class="product-name">Cartoon Astronaut T-Shirt</div>
-                            <div class="ratings"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                    class="fa-solid fa-star"></i></div>
+                            <div class="ratings"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
                             <div class="price flex">
                                 <p><i class="fa-solid fa-indian-rupee-sign"></i>699</p>
                                 <i class="pointer fa-solid fa-cart-plus"></i>
                             </div>
                         </div>
                         <div class="p-items flex-column" id="p-item-2">
-                            <img src="./images/products/f2.jpg" alt="">
+                            <img src="./images/products/f2.jpg" alt="" />
                             <div class="product-name">Cartoon Astronaut T-Shirt</div>
-                            <div class="ratings"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                    class="fa-solid fa-star"></i></div>
+                            <div class="ratings"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
                             <div class="price flex">
                                 <p><i class="fa-solid fa-indian-rupee-sign"></i>699</p>
                                 <i class="pointer fa-solid fa-cart-plus"></i>
                             </div>
                         </div>
                         <div class="p-items flex-column" id="p-item-3">
-                            <img src="./images/products/f3.jpg" alt="">
+                            <img src="./images/products/f3.jpg" alt="" />
                             <div class="product-name">Cartoon Astronaut T-Shirt</div>
-                            <div class="ratings"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                    class="fa-solid fa-star"></i></div>
+                            <div class="ratings"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
                             <div class="price flex">
                                 <p><i class="fa-solid fa-indian-rupee-sign"></i>699</p>
                                 <i class="pointer fa-solid fa-cart-plus"></i>
                             </div>
                         </div>
                         <div class="p-items flex-column" id="p-item-4">
-                            <img src="./images/products/f4.jpg" alt="">
+                            <img src="./images/products/f4.jpg" alt="" />
                             <div class="product-name">Cartoon Astronaut T-Shirt</div>
-                            <div class="ratings"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                    class="fa-solid fa-star"></i></div>
+                            <div class="ratings"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
                             <div class="price flex">
                                 <p><i class="fa-solid fa-indian-rupee-sign"></i>699</p>
                                 <i class="pointer fa-solid fa-cart-plus"></i>
                             </div>
                         </div>
-                    </div>
-                    <div class="product-rows flex" id="p-row-2">
                         <div class="p-items flex-column" id="p-item-1">
-                            <img src="./images/products/f5.jpg" alt="">
+                            <img src="./images/products/f5.jpg" alt="" />
                             <div class="product-name">Cartoon Astronaut T-Shirt</div>
-                            <div class="ratings"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                    class="pointer fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                    class="fa-solid fa-star"></i></div>
+                            <div class="ratings"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="pointer fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
                             <div class="price flex">
                                 <p><i class="fa-solid fa-indian-rupee-sign"></i>699</p>
                                 <i class="fa-solid fa-cart-plus"></i>
                             </div>
                         </div>
                         <div class="p-items flex-column" id="p-item-2">
-                            <img src="./images/products/f6.jpg" alt="">
+                            <img src="./images/products/f6.jpg" alt="" />
                             <div class="product-name">Cartoon Astronaut T-Shirt</div>
-                            <div class="ratings"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                    class="fa-solid fa-star"></i></div>
+                            <div class="ratings"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
                             <div class="price flex">
                                 <p><i class="fa-solid fa-indian-rupee-sign"></i>699</p>
                                 <i class="pointer fa-solid fa-cart-plus"></i>
                             </div>
                         </div>
                         <div class="p-items flex-column" id="p-item-3">
-                            <img src="./images/products/f7.jpg" alt="">
+                            <img src="./images/products/f7.jpg" alt="" />
                             <div class="product-name">Cartoon Astronaut T-Shirt</div>
-                            <div class="ratings"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                    class="fa-solid fa-star"></i></div>
+                            <div class="ratings"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
                             <div class="price flex">
                                 <p><i class="fa-solid fa-indian-rupee-sign"></i>699</p>
                                 <i class="pointer fa-solid fa-cart-plus"></i>
                             </div>
                         </div>
                         <div class="p-items flex-column" id="p-item-4">
-                            <img src="./images/products/f8.jpg" alt="">
+                            <img src="./images/products/f8.jpg" alt="" />
                             <div class="product-name">Cartoon Astronaut T-Shirt</div>
-                            <div class="ratings"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                    class="fa-solid fa-star"></i></div>
+                            <div class="ratings"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
                             <div class="price flex">
                                 <p><i class="fa-solid fa-indian-rupee-sign"></i>699</p>
                                 <i class="pointer fa-solid fa-cart-plus"></i>
@@ -172,109 +169,89 @@
                     </div>
                 </div>
             </div>
-        </div>
 
-        <!-- newsletter section -->
-        <div class="newsletter-section flex">
-            <div class="container flex-column">
-                <p>Repair Services</p>
-                <h1>Upto <span>70% Off</span> On All T-Shirts & Accessoies</h1>
-                <div class="p-button pointer">Explore More</div>
+            <!-- newsletter section -->
+            <div class="newsletter-section flex">
+                <div class="container flex-column">
+                    <p>Repair Services</p>
+                    <h1>Upto <span>70% Off</span> On All T-Shirts & Accessoies</h1>
+                    <div class="p-button pointer">Explore More</div>
+                </div>
             </div>
-        </div>
 
-        <!-- new arivals -->
-        <div class="new-arival">
-            <div class="container flex-column">
-                <h1 class="p-head">New Arivals</h1>
-                <p class="p-para">Summer Collection New Mordern Design</p>
-                <div class="products">
-                    <div class="product-rows flex" id="p-row-1">
+            <!-- new arivals -->
+            <div class="new-arival">
+                <div class="container flex-column">
+                    <h1 class="p-head">New Arivals</h1>
+                    <p class="p-para">Summer Collection New Mordern Design</p>
+                    <div class="products">
                         <div class="p-items flex-column" id="p-item-1">
-                            <img src="./images/products/n1.jpg" alt="">
+                            <img src="./images/products/n1.jpg" alt="" />
                             <div class="product-name">Cartoon Astronaut T-Shirt</div>
-                            <div class="ratings"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                    class="fa-solid fa-star"></i></div>
+                            <div class="ratings"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
                             <div class="price flex">
                                 <p><i class="fa-solid fa-indian-rupee-sign"></i>699</p>
                                 <i class="pointer fa-solid fa-cart-plus"></i>
                             </div>
                         </div>
                         <div class="p-items flex-column" id="p-item-2">
-                            <img src="./images/products/n2.jpg" alt="">
+                            <img src="./images/products/n2.jpg" alt="" />
                             <div class="product-name">Cartoon Astronaut T-Shirt</div>
-                            <div class="ratings"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                    class="fa-solid fa-star"></i></div>
+                            <div class="ratings"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
                             <div class="price flex">
                                 <p><i class="fa-solid fa-indian-rupee-sign"></i>699</p>
                                 <i class="pointer fa-solid fa-cart-plus"></i>
                             </div>
                         </div>
                         <div class="p-items flex-column" id="p-item-3">
-                            <img src="./images/products/n3.jpg" alt="">
+                            <img src="./images/products/n3.jpg" alt="" />
                             <div class="product-name">Cartoon Astronaut T-Shirt</div>
-                            <div class="ratings"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                    class="fa-solid fa-star"></i></div>
+                            <div class="ratings"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
                             <div class="price flex">
                                 <p><i class="fa-solid fa-indian-rupee-sign"></i>699</p>
                                 <i class="pointer fa-solid fa-cart-plus"></i>
                             </div>
                         </div>
                         <div class="p-items flex-column" id="p-item-4">
-                            <img src="./images/products/n4.jpg" alt="">
+                            <img src="./images/products/n4.jpg" alt="" />
                             <div class="product-name">Cartoon Astronaut T-Shirt</div>
-                            <div class="ratings"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                    class="fa-solid fa-star"></i></div>
+                            <div class="ratings"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
                             <div class="price flex">
                                 <p><i class="fa-solid fa-indian-rupee-sign"></i>699</p>
                                 <i class="pointer fa-solid fa-cart-plus"></i>
                             </div>
                         </div>
-                    </div>
-                    <div class="product-rows flex" id="p-row-2">
                         <div class="p-items flex-column" id="p-item-1">
-                            <img src="./images/products/n5.jpg" alt="">
+                            <img src="./images/products/n5.jpg" alt="" />
                             <div class="product-name">Cartoon Astronaut T-Shirt</div>
-                            <div class="ratings"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                    class="fa-solid fa-star"></i></div>
+                            <div class="ratings"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
                             <div class="price flex">
                                 <p><i class="fa-solid fa-indian-rupee-sign"></i>699</p>
                                 <i class="pointer fa-solid fa-cart-plus"></i>
                             </div>
                         </div>
                         <div class="p-items flex-column" id="p-item-2">
-                            <img src="./images/products/n6.jpg" alt="">
+                            <img src="./images/products/n6.jpg" alt="" />
                             <div class="product-name">Cartoon Astronaut T-Shirt</div>
-                            <div class="ratings"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                    class="fa-solid fa-star"></i></div>
+                            <div class="ratings"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
                             <div class="price flex">
                                 <p><i class="fa-solid fa-indian-rupee-sign"></i>699</p>
                                 <i class="pointer fa-solid fa-cart-plus"></i>
                             </div>
                         </div>
                         <div class="p-items flex-column" id="p-item-3">
-                            <img src="./images/products/n7.jpg" alt="">
+                            <img src="./images/products/n7.jpg" alt="" />
                             <div class="product-name">Cartoon Astronaut T-Shirt</div>
-                            <div class="ratings"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                    class="fa-solid fa-star"></i></div>
+                            <div class="ratings"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
                             <div class="price flex">
                                 <p><i class="fa-solid fa-indian-rupee-sign"></i>699</p>
                                 <i class="pointer fa-solid fa-cart-plus"></i>
                             </div>
                         </div>
                         <div class="p-items flex-column" id="p-item-4">
-                            <img src="./images/products/n8.jpg" alt="">
+                            <img src="./images/products/n8.jpg" alt="" />
                             <div class="product-name">Cartoon Astronaut T-Shirt</div>
-                            <div class="ratings"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                    class="fa-solid fa-star"></i></div>
+                            <div class="ratings"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
                             <div class="price flex">
                                 <p><i class="fa-solid fa-indian-rupee-sign"></i>699</p>
                                 <i class="pointer fa-solid fa-cart-plus"></i>
@@ -283,126 +260,120 @@
                     </div>
                 </div>
             </div>
-        </div>
 
-        <!-- action banner -->
-        <div class="action-banner">
-            <div class="container flex-column">
-                <div class="action-rows flex" id="a-row-1">
-                    <div class="a-cols flex-column" style="background-image: url(./images/banner/b17.jpg);"
-                        id="a-col-1">
-                        <h3>Crazy Deals</h3>
-                        <h1>Buy 1 Get 1 Free</h1>
-                        <p>The best classic dresses are on sale at cara</p>
-                        <div class="pointer p-button">Learn More</div>
-                    </div>
-                    <div class="a-cols flex-column" style="background-image: url(./images/banner/b10.jpg);"
-                        id="a-col-2">
-                        <h3>Spring/Summer</h3>
-                        <h1>Upcomming Season</h1>
-                        <p>The best classic dresses are on sale at cara</p>
-                        <div class="pointer p-button">Collection</div>
-                    </div>
-                </div>
-                <div class="action-rows flex" id="a-row-2">
-                    <div class="pointer a-cols flex-column" style="background-image: url(./images/banner/b7.jpg);"
-                        id="a-col-3">
-                        <h2>SEASONAL SALE</h2>
-                        <P>Winter Collection 50% Off</P>
-                    </div>
-                    <div class="pointer a-cols flex-column" style="background-image: url(./images/banner/b4.jpg);"
-                        id="a-col-4">
-                        <h2>NEW FOOTWEAR COLLECTION</h2>
-                        <P>Summer / Spring 2023</P>
-                    </div>
-                    <div class="pointer a-cols flex-column" style="background-image: url(./images/banner/b18.jpg);"
-                        id="a-col-5">
-                        <h2>T-SHIRTS</h2>
-                        <P>New Trendy Prints</P>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Newsletter Section 2 -->
-        <div class="Newsletter-Section-2">
-            <div class="container flex">
-                <div class="news-col1 flex-column">
-                    <h1>Sign Up For Newsletters</h1>
-                    <p>Ger E-mail updates about our latest shop and <span>Special Offers.</span></p>
-                </div>
-                <div class="news-col2">
-                    <form action="#" class="flex">
-                        <input type="text" name="" placeholder="Your email address" id="search">
-                        <input type="submit" class="p-button" value="Sign Up">
-                    </form>
-                </div>
-            </div>
-        </div>
-    </main>
-
-    <!--footer  -->
-    <footer>
-
-        <div class="footer-section">
-            <div class="container">
-                <div class="footer-row-1 flex">
-                    <div class="foot-cols flex-column" id="foot-col-1">
-                        <img src="./images/logo.png" alt="">
-                        <h4>Contact</h4>
-                        <p><span>Addres:</span> 562 Wellington Road, Street 32, San Francisco</p>
-                        <p><span>Phone:</span> +91 123 456 7890</p>
-                        <p><span>Hours:</span> 10:00 - 18: 00, Mon-Sat</p>
-                        <h4 class="follow-us">Follow Us</h4>
-                        <div class="brands gap-15">
-                            <i class="fa-brands fa-facebook-f"></i>
-                            <i class="fa-brands fa-twitter"></i>
-                            <i class="fa-brands fa-instagram"></i>
-                            <i class="fa-brands fa-pinterest"></i>
-                            <i class="fa-brands fa-youtube"></i>
+            <!-- action banner -->
+            <div class="action-banner">
+                <div class="container flex-column">
+                    <div class="action-rows flex" id="a-row-1">
+                        <div class="a-cols flex-column" style="background-image: url(./images/banner/b17.jpg)" id="a-col-1">
+                            <h3>Crazy Deals</h3>
+                            <h1>Buy 1 Get 1 Free</h1>
+                            <p>The best classic dresses are on sale at cara</p>
+                            <div class="pointer p-button">Learn More</div>
                         </div>
+                        <div class="a-cols flex-column" style="background-image: url(./images/banner/b10.jpg)" id="a-col-2">
+                            <h3>Spring / Summer</h3>
+                            <h1>Upcomming Season</h1>
+                            <p>The best classic dresses are on sale at cara</p>
+                            <div class="pointer p-button">Collection</div>
+                        </div>
+                    </div>
+                    <div class="action-rows flex" id="a-row-2">
+                        <div class="pointer a-cols flex-column" style="background-image: url(./images/banner/b7.jpg)" id="a-col-3">
+                            <h2>SEASONAL SALE</h2>
+                            <p>Winter Collection 50% Off</p>
+                        </div>
+                        <div class="pointer a-cols flex-column" style="background-image: url(./images/banner/b4.jpg)" id="a-col-4">
+                            <h2>NEW FOOTWEAR COLLECTION</h2>
+                            <p>Summer / Spring 2023</p>
+                        </div>
+                        <div class="pointer a-cols flex-column" style="background-image: url(./images/banner/b18.jpg)" id="a-col-5">
+                            <h2>T-SHIRTS</h2>
+                            <p>New Trendy Prints</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
+            <!-- Newsletter Section 2 -->
+            <div class="Newsletter-Section-2">
+                <div class="container flex">
+                    <div class="news-col1 flex-column">
+                        <h1>Sign Up For Newsletters</h1>
+                        <p>
+                            Ger E-mail updates about our latest shop and
+                            <span>Special Offers.</span>
+                        </p>
                     </div>
-                    <div class="foot-cols flex-column gap-10" id="foot-col-2">
-                        <h4>About</h4>
-                        <p>About us</p>
-                        <p>Delivery Information</p>
-                        <p>Privacy Policy</p>
-                        <p>Terms & Conditions</p>
-                        <p>Contact Us</p>
+                    <div class="news-col2">
+                        <form action="#" class="flex">
+                            <input type="text" name="" placeholder="Your email address" id="search" />
+                            <input type="submit" class="p-button" value="Sign Up" />
+                        </form>
                     </div>
-                    <div class="foot-cols flex-column gap-10" id="foot-col-3">
-                        <h4>My Account</h4>
-                        <p>Sign In</p>
-                        <p>View Cart</p>
-                        <p>My Watchlist</p>
-                        <p>Track My Order</p>
-                        <p>Help</p>
-                    </div>
-                    <div class="foot-cols flex-column gap-10" id="foot-col-4">
-                        <h4>Install App</h4>
-                        <p>From App Store or Google Play</p>
-                        <div class="app-download flex">
-                            <div class="apple">
-                                <img src="./images/pay/app.jpg" alt="">
-                            </div>
-                            <div class="google">
-                                <img src="./images/pay/play.jpg" height="100" alt="">
+                </div>
+            </div>
+        </main>
+
+        <!--footer  -->
+        <footer>
+            <div class="footer-section">
+                <div class="container">
+                    <div class="footer-row-1 flex">
+                        <div class="foot-cols flex-column" id="foot-col-1">
+                            <img src="./images/logo.png" alt="" />
+                            <h4>Contact</h4>
+                            <p><span>Addres:</span> 562 Wellington Road, Street 32, San Francisco</p>
+                            <p><span>Phone:</span> +91 123 456 7890</p>
+                            <p><span>Hours:</span> 10:00 - 18: 00, Mon-Sat</p>
+                            <h4 class="follow-us">Follow Us</h4>
+                            <div class="brands gap-15">
+                                <i class="fa-brands fa-facebook-f"></i>
+                                <i class="fa-brands fa-twitter"></i>
+                                <i class="fa-brands fa-instagram"></i>
+                                <i class="fa-brands fa-pinterest"></i>
+                                <i class="fa-brands fa-youtube"></i>
                             </div>
                         </div>
-                        <p>Secured Payment Gateways</p>
-                        <img src="./images/pay/pay.png" alt="">
+                        <div class="foot-cols flex-column gap-10" id="foot-col-2">
+                            <h4>About</h4>
+                            <p>About us</p>
+                            <p>Delivery Information</p>
+                            <p>Privacy Policy</p>
+                            <p>Terms & Conditions</p>
+                            <p>Contact Us</p>
+                        </div>
+                        <div class="foot-cols flex-column gap-10" id="foot-col-3">
+                            <h4>My Account</h4>
+                            <p>Sign In</p>
+                            <p>View Cart</p>
+                            <p>My Watchlist</p>
+                            <p>Track My Order</p>
+                            <p>Help</p>
+                        </div>
+                        <div class="foot-cols flex-column gap-10" id="foot-col-4">
+                            <h4>Install App</h4>
+                            <p>From App Store or Google Play</p>
+                            <div class="app-download flex">
+                                <div class="apple">
+                                    <img src="./images/pay/app.jpg" alt="" />
+                                </div>
+                                <div class="google">
+                                    <img src="./images/pay/play.jpg" height="100" alt="" />
+                                </div>
+                            </div>
+                            <p>Secured Payment Gateways</p>
+                            <img src="./images/pay/pay.png" alt="" />
+                        </div>
+                    </div>
+                    <div class="footer-row-2 flex">
+                        <p>2021, Cara - HTML CSS Ecommerse Templaet</p>
                     </div>
                 </div>
-                <div class="footer-row-2 flex">
-                    <p>2021, Cara - HTML CSS Ecommerse Templaet</p>
-                </div>
             </div>
-        </div>
-    </footer>
+        </footer>
 
-    <script src="./script.js"></script>
-    <script src="https://kit.fontawesome.com/8f93ce6295.js" crossorigin="anonymous"></script>
-</body>
-
+        <script src="./script.js"></script>
+        <script src="https://kit.fontawesome.com/8f93ce6295.js" crossorigin="anonymous"></script>
+    </body>
 </html>
