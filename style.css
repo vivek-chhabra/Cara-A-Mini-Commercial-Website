@@ -326,10 +326,13 @@ header {
   color: rgb(255, 28, 28);
 }
 
+<<<<<<< HEAD
 .newsletter-section h1 {
   text-align: center;
 }
 
+=======
+>>>>>>> 43ce671a7ae7477072fcebf1837ccf2dda9a5857
 .newsletter-section {
   font-size: 120%;
 }
@@ -420,7 +423,10 @@ header {
   height: 100%;
   align-items: center;
   justify-content: space-around;
+<<<<<<< HEAD
   gap: 20px;
+=======
+>>>>>>> 43ce671a7ae7477072fcebf1837ccf2dda9a5857
 }
 
 .news-col1 {
@@ -492,7 +498,10 @@ header {
 .footer-row-2 {
   justify-content: center;
   margin-top: 30px;
+<<<<<<< HEAD
   text-align: center;
+=======
+>>>>>>> 43ce671a7ae7477072fcebf1837ccf2dda9a5857
 }
 
 .app-download {
