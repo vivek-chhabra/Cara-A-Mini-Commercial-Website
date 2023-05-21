@@ -326,6 +326,10 @@ header {
   color: rgb(255, 28, 28);
 }
 
+.newsletter-section h1 {
+  text-align: center;
+}
+
 .newsletter-section {
   font-size: 120%;
 }
@@ -416,6 +420,7 @@ header {
   height: 100%;
   align-items: center;
   justify-content: space-around;
+  gap: 20px;
 }
 
 .news-col1 {
@@ -487,6 +492,7 @@ header {
 .footer-row-2 {
   justify-content: center;
   margin-top: 30px;
+  text-align: center;
 }
 
 .app-download {
@@ -534,27 +540,9 @@ header {
   margin-top: 50px;
 }
 
-for
-
 /* responsive design */
 
-/* @media all and (max-width: 1100px) {
-  .hero-section {
-    background-position: top 10% right 10%;
-  }
-} */
-
-/* @media all and (max-width: 1150px) {
-
-  .footer-row-2 {
-    margin-block: 30px;
-    margin-top: 50px;
-  }
-
-  #foot-col-4 {
-    text-align: center;
-  }
-} */
+/* for tablate view */
 
 @media all and (max-width: 970px) {
   .features-section .container {
@@ -610,11 +598,25 @@ for
   }
 
   #a-row-2 .a-cols {
-    height: 250px;
+    gap: 20px;
+    height: 220px;
+    flex: auto;
+    background-size: contain;
+    background-position: right;
   }
 
-  #a-row-2 .a-cols {
-    gap: 30px;
+  #a-row-2 #a-col-3 {
+    background-color: #939395;
+  }
+
+  #a-row-2 #a-col-4 {
+    background-color: #BFB7B4;
+  }
+
+  #a-row-2 #a-col-5 {
+    background-color: #0184BC;
+    background-size: cover;
+    background-position: top;
   }
 }
 
@@ -675,6 +677,8 @@ for
   }
 
   .hero-content {
+    position: relative;
+    right: 50px;
     scale: .80;
   }
 
@@ -694,5 +698,100 @@ for
 
   .footer-row-2 {
     justify-content: flex-start;
+  }
+}
+
+@media all and (max-width: 735px) {
+  #a-row-2 {
+    flex-direction: column;
+  }
+
+  #a-row-2 .a-cols {
+    width: 100%;
+  }
+
+  .Newsletter-Section-2 .container {
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    gap: 30px;
+  }
+}
+
+/* for mobile view */
+
+@media all and (max-width: 480px) {
+  .hero-section {
+    background-position: 50%;
+  }
+
+  .container {
+    padding-inline: 20px;
+  }
+
+  .hero-content {
+    left: -40px;
+    width: 90%;
+    scale: .80;
+  }
+
+  .hero-content h1, .hero-content h2 {
+    font-size: 2.5em;
+  }
+
+  .f-cols img {
+    width: 110px;
+  }
+
+  .p-para{
+    text-align: center;
+  }
+
+  .action-rows .a-cols {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #a-row-1 .a-cols {
+    height: 200px;
+  }
+
+  #a-row-2 .a-cols {
+    background-position: center;
+    background-size: cover;
+    height: 150px;
+    width: 105%;
+  }
+
+  .action-rows .a-cols {
+    padding-left: 0px;
+  }
+
+  #f-col-1 img {
+    position: relative;
+    left: 9px;
+  }
+
+  .Newsletter-Section-2 {
+    position: relative;
+    bottom: 20px;
+    height: 270px;
+  }
+
+  .Newsletter-Section-2 h1 {
+    font-size: 150%;
+  }
+
+  .news-col2 input {
+    width: 250px;
+  }
+
+  .news-col2 form {
+    scale: .9;
+  }
+
+  .app-download {
+    flex-wrap: wrap;
   }
 }
