@@ -549,6 +549,12 @@ header {
   margin-top: 50px;
 }
 
+.footer-section .foot-cols h4 span{
+  padding-inline: 3px;
+  padding-bottom: 3px;
+  border-bottom: 2px solid #000000;
+}
+
 /* responsive design */
 
 /* for tablate view */
@@ -582,9 +588,6 @@ header {
 }
 
 @media all and (max-width: 840px) {
-  /* .action-banner {
-    width: 100%;
-  } */
 
   .newsletter-section h1 {
     font-size: 150%;
@@ -802,5 +805,23 @@ header {
 
   .app-download {
     flex-wrap: wrap;
+  }
+
+  .hero-content h2 {
+    margin-top: -10px;
+    font-size: 180%;
+  }
+
+  .hero-content h1 {
+    margin-bottom: -10px;
+    font-size: 180%;
+  }
+
+  .p-head {
+    font-size: 180%;
+  }
+
+  .p-para {
+    font-size: 110%;
   }
 }
