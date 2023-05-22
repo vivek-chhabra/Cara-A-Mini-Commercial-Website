@@ -21,8 +21,9 @@ cross.addEventListener('click', () => {
     navLink.style = `right: -300px`
 })
 
+
 products.forEach(ele => {
     ele.addEventListener('click', () => {
-        document.location = 'http://127.0.0.1:5500/single-product.html'
+        document.location = 'https://vivek-chhabra.github.io/Cara-A-Mini-Commercial-Website/single-product.html'
     })
 })
