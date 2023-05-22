@@ -810,7 +810,7 @@ header {
 /* shop page */
 
 .s-hero-section {
-    background: url(/images/banner/b1.jpg);
+    background: url(./images/banner/b1.jpg);
     color: white;
     height: 300px;
 }
