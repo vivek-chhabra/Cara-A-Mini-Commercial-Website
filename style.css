@@ -172,6 +172,10 @@ header {
     row-gap: 20px;
 }
 
+.featured-product-section .p-para {
+    text-align: center;
+}
+
 .f-cols {
     text-align: center;
     border: 2px solid #c4eeeba9;
@@ -736,10 +740,6 @@ header {
         width: 110px;
     }
 
-    .p-para {
-        text-align: center;
-    }
-
     .action-rows .a-cols {
         text-align: center;
         justify-content: center;
@@ -854,6 +854,17 @@ header {
 
 #pageination a:hover {
     background-color: #0c5954;
+}
+
+.s-hero-section p {
+    text-align: center;
+}
+
+@media (max-width: 640px) {
+    .s-hero-section h2 {
+        font-size: 220% !important;
+    }
+    
 }
 
 /* single product section */
