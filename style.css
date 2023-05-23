@@ -864,7 +864,6 @@ header {
     .s-hero-section h2 {
         font-size: 220% !important;
     }
-    
 }
 
 /* single product section */
@@ -1049,5 +1048,17 @@ select {
 @media (max-width: 460px) {
     .s-product .main-image {
         width: 100%;
+    }
+
+    .single-product-section .s-product-content h3 {
+        font-size: 130%;
+    }
+
+    .single-product-section .s-product-content {
+        gap: 0px;
+    }
+
+    #size {
+        margin-bottom: 10px;
     }
 }
