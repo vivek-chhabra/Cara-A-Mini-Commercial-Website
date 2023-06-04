@@ -22,7 +22,7 @@ h5 {
 }
 
 p {
-    font-family: 'Nunito', sans-serif;
+    font-family: "Nunito", sans-serif;
     font-size: 110%;
 }
 
@@ -1179,7 +1179,7 @@ select {
 
 @media (max-width: 665px) {
     .blog-items .b-right {
-        scale: .9;
+        scale: 0.9;
     }
 }
 
@@ -1196,9 +1196,8 @@ select {
     .blog-items .b-right {
         width: 100%;
         height: 200px;
-    }s
-
-    .blog-items {
+    }
+    s .blog-items {
         gap: 10px;
     }
 
@@ -1236,7 +1235,8 @@ select {
     margin-block: 40px;
 }
 
-.ah-left, .ah-right {
+.ah-left,
+.ah-right {
     width: 100%;
 }
 
@@ -1254,7 +1254,7 @@ select {
 }
 
 marquee {
-    background-color: #DEEBFE;
+    background-color: #deebfe;
     padding: 10px;
     margin-top: 10px;
     border-radius: 5px;
@@ -1283,7 +1283,6 @@ marquee {
     border-bottom: #0a5853 solid 3px;
     color: #0a5853;
     cursor: pointer;
-
 }
 
 .video-section video {
@@ -1310,7 +1309,7 @@ footer {
     .about-head .container {
         margin-block: 0px;
         gap: 20px;
-        text-align: center ;
+        text-align: center;
     }
 
     .about-head h1 {
@@ -1320,8 +1319,17 @@ footer {
     .video-section h1 {
         font-size: 30px;
     }
+
     .s-hero-section .container {
-        scale: .8;
+        scale: 0.8;
+    }
+
+    .ah-right h1, .video-section h1  {
+        font-size: 22px;
+    }
+
+    .video-section video {
+        width: 100%;
     }
 }
 
@@ -1405,7 +1413,8 @@ textarea::placeholder {
     font-size: 110%;
 }
 
-.contact-left input, .contact-left textarea {
+.contact-left input,
+.contact-left textarea {
     padding: 10px 20px;
     font-size: 15px;
     color: black;
@@ -1434,7 +1443,8 @@ textarea::placeholder {
         padding: 20px 40px;
     }
 
-    .contact-left, .contact-right {
+    .contact-left,
+    .contact-right {
         width: 50%;
         gap: 15px;
     }
@@ -1445,7 +1455,8 @@ textarea::placeholder {
 }
 
 @media (max-width: 800px) {
-    .gt-left, .gt-right {
+    .gt-left,
+    .gt-right {
         width: 50%;
     }
     .gt-left h1 {
@@ -1456,7 +1467,8 @@ textarea::placeholder {
         flex-direction: column;
     }
 
-    .contact-left, .contact-right {
+    .contact-left,
+    .contact-right {
         width: 100%;
     }
 
@@ -1482,7 +1494,8 @@ textarea::placeholder {
         gap: 40px;
     }
 
-    .gt-left, .gt-right {
+    .gt-left,
+    .gt-right {
         width: 100%;
     }
 
