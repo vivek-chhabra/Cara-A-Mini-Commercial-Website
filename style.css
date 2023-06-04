@@ -1320,6 +1320,9 @@ footer {
     .video-section h1 {
         font-size: 30px;
     }
+    .s-hero-section .container {
+        scale: .8;
+    }
 }
 
 /* contact-us page */
