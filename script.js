@@ -6,6 +6,8 @@ const otherImg = document.querySelectorAll(".other-img img");
 const products = document.querySelectorAll(".products .p-items");
 const header = document.querySelector('header')
 const headerImg = document.querySelector('header img')
+const contactForm = document.querySelector('.contact-left form');
+const submitBtn = document.querySelector('.contact-left button');
 
 
 // adjusting header on the bases of scroll
@@ -42,3 +44,8 @@ products.forEach(ele => {
         document.location = 'https://vivek-chhabra.github.io/Cara-A-Mini-Commercial-Website/single-product.html'
     })
 })
+
+// disabling the default behavour of the form
+submitBtn.addEventListener('click', (evt) => {
+    evt.preventDefault()
+})  
