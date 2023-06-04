@@ -4,7 +4,22 @@ const cross = document.querySelector('.cross')
 const mainImg = document.querySelector(".main-image");
 const otherImg = document.querySelectorAll(".other-img img");
 const products = document.querySelectorAll(".products .p-items");
-// const products = document.querySelectorAll(".single-p .products .p-items");
+const header = document.querySelector('header')
+const headerImg = document.querySelector('header img')
+
+
+// adjusting header on the bases of scroll
+window.addEventListener('scroll', () => {
+    console.log(window.scrollY)
+    if(window.scrollY > 460) {
+        header.style = `padding-block: 10px`
+        headerImg.style = `scale: .9`
+    }else {
+        header.style = ``
+        headerImg.style = ``
+    }
+})
+
 
 // when other images are clicked
 otherImg.forEach((ele) => {
