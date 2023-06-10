@@ -8,18 +8,18 @@ Welcome to the project **Cara A Mini Commercial Website**. This project is a com
 
 <br>
 
-## Project Structure
+## 📑 Project Structure
 
 The project follows a simple and intuitive structure. Here is an overview of the main directories and files:
 
--  index.html  : The main HTML file representing the 🏠 Home page.
--  shop.html  : The HTML file representing the 🛍️ Shop page.
--  blog.html  : The HTML file representing the ✍️ Blog page.
--  about.html  : The HTML file representing the ℹ️ About page.
--  contact.html  : The HTML file representing the 📞 Contact page.
--  style.css  : This file contains the CSS styling the website.
--  script.js  : This file contains the JavaScript for implementing interactive functionality.
--  images/  : This directory stores the images used in the website.
+-  **index.html**  : The main HTML file representing the Home page.
+-  **shop.html**  : The HTML file representing the  Shop page.
+-  **blog.html**  : The HTML file representing the  Blog page.
+-  **about.html**  : The HTML file representing the About page.
+-  **contact.html**  : The HTML file representing the Contact page.
+-  **style.css**  : This file contains the CSS styling the website.
+-  **script.js**  : This file contains the JavaScript for implementing interactive functionality.
+-  **images/**  : This directory stores the images used in the website.
 
 <br>
 
@@ -27,29 +27,29 @@ The project follows a simple and intuitive structure. Here is an overview of the
 
 The Cara A Mini Commercial Website consists of the following pages:
 
-### 🏠 Home
+### Home
 
 The Home page is the landing page of the website. It provides an introduction to the website and showcases featured products, new arrivals and special offers. Visitors can navigate to other pages from here.
 
-### 🛍️ Shop
+### Shop
 
 The Shop page is where visitors can browse and purchase clothing items.
 
-### ✍️ Blog
+### Blog
 
 The Blog page contains articles and posts related to fashion, clothing trends, style tips, and other relevant topics. It provides a platform for sharing informative and engaging content with the website visitors.
 
-### ℹ️ About
+### About
 
 The About page provides information about the company. This page helps to establish credibility and build trust with the visitors.
 
-### 📞 Contact
+### Contact
 
 The Contact page allows visitors to get in touch with the company. It typically includes a contact form or contact information such as email address, phone number, and physical address. Visitors can use this page to make inquiries, provide feedback, or seek support.
 
 <br>
 
-## Technologies Used
+## 📱 Technologies Used
 
 The Cara A Mini Commercial Website is built using the following technologies:
 
@@ -59,19 +59,27 @@ The Cara A Mini Commercial Website is built using the following technologies:
 
 <br>
 
-## How to Run the Project
+## 🔍 How to Run the Project
 
 To run the Cara A Mini Commercial Website locally on your machine, follow these steps:
 
-1. Clone the project repository from GitHub: `git clone https://github.com/your-username/cara-a-mini-commercial-website.git`.
-2. Navigate to the project directory: `cd cara-a-mini-commercial-website`.
-3. Open the desired HTML file (e.g., `index.html`, `shop.html`) in your web browser.
+1. Clone the project repository from GitHub:
+   ```bash
+       git clone https://github.com/your-username/cara-a-mini-commercial-website.git
+   ```
+   
+5. Navigate to the project directory: 
+      ```bash
+      cd cara-a-mini-commercial-website
+      ```
+
+7. Open the desired HTML file (e.g., **index.html**, **shop.html**) in your web browser.
 
 That's it! You should now be able to view and interact with the Cara A Mini Commercial Website on your local machine.
 
 <br>
 
-## Contributing
+## 🤝 Contributing
 
 If you wish to contribute to the project, feel free to fork the repository, make your changes, and submit a pull request. Contributions such as bug fixes, new features, and improvements are always welcome.
 
