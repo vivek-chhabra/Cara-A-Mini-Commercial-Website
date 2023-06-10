@@ -1,6 +1,6 @@
 # Cara A Mini Commercial Website
 
-Welcome to the project **Cara A Mini Commercial Website**. This project is a commercial website designed for selling clothes online. It consists of five main pages: 🏠 Home, 🛍️ Shop, ✍️ Blog, ℹ️ About, and 📞 Contact.
+Welcome to the project **Cara A Mini Commercial Website**. This project is a commercial website designed for selling clothes online. It consists of five main pages: Home, Shop, Blog, About, and Contact.
 
 <br>
 
@@ -12,14 +12,14 @@ Welcome to the project **Cara A Mini Commercial Website**. This project is a com
 
 The project follows a simple and intuitive structure. Here is an overview of the main directories and files:
 
-- ` index.html ` : The main HTML file representing the 🏠 Home page.
-- ` shop.html ` : The HTML file representing the 🛍️ Shop page.
-- ` blog.html ` : The HTML file representing the ✍️ Blog page.
-- ` about.html ` : The HTML file representing the ℹ️ About page.
-- ` contact.html ` : The HTML file representing the 📞 Contact page.
-- ` style.css ` : This file contains the CSS styling the website.
-- ` script.js ` : This file contains the JavaScript for implementing interactive functionality.
-- ` images/ ` : This directory stores the images used in the website.
+-  index.html  : The main HTML file representing the 🏠 Home page.
+-  shop.html  : The HTML file representing the 🛍️ Shop page.
+-  blog.html  : The HTML file representing the ✍️ Blog page.
+-  about.html  : The HTML file representing the ℹ️ About page.
+-  contact.html  : The HTML file representing the 📞 Contact page.
+-  style.css  : This file contains the CSS styling the website.
+-  script.js  : This file contains the JavaScript for implementing interactive functionality.
+-  images/  : This directory stores the images used in the website.
 
 <br>
 
@@ -56,7 +56,6 @@ The Cara A Mini Commercial Website is built using the following technologies:
 - **HTML**: The structure and markup of the web pages.
 - **CSS**: The styling and layout of the website.
 - **JavaScript**: The implementation of interactive functionality and dynamic features.
-- **Responsive Design**: The website is designed to be responsive and adaptable to different screen sizes, ensuring a seamless experience across all devices.
 
 <br>
 
