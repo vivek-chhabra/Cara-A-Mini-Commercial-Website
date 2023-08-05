@@ -8,6 +8,22 @@ Welcome to the project **Cara A Mini Commercial Website**. This project is a com
 
 <br>
 
+![Screenshot (68)](https://github.com/vivek-chhabra/Cara-A-Mini-Commercial-Website/assets/105328667/852c7414-1dac-43cf-900f-2b3e36b4c032)
+
+<br>
+
+![05 08 2023_16 10 22_REC](https://github.com/vivek-chhabra/Cara-A-Mini-Commercial-Website/assets/105328667/f32bfa96-6b7c-4653-9450-1f9d4b644a06)
+
+<br>
+
+![05 08 2023_16 10 51_REC](https://github.com/vivek-chhabra/Cara-A-Mini-Commercial-Website/assets/105328667/fb0aa016-b59f-4b37-b20b-d8c2c4be13dc)
+
+<br>
+
+![05 08 2023_16 11 21_REC](https://github.com/vivek-chhabra/Cara-A-Mini-Commercial-Website/assets/105328667/79159861-5211-415d-b543-7edaf9044224)
+
+<br>
+
 ## 📑 Project Structure
 
 The project follows a simple and intuitive structure. Here is an overview of the main directories and files:
